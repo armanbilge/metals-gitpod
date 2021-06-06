@@ -4,7 +4,7 @@ Prebuild-friendly image for Scala SBT projects on [gitpod.io](https://gitpod.io)
 
 Example `.gitpod.yml`:
 ```yaml
-image: armanbilge/metals-gitpod:snapshot
+image: armanbilge/metals-gitpod:0.1
 tasks:
   - init: initMetals
     command: sbt
